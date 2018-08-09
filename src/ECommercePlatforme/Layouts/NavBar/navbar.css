@@ -1,0 +1,70 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.search-items-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.text-field-search-navbar {
+  max-width: 250px;
+  outline: none;
+  display: inline-block;
+  padding: 0 10px;
+  height: 46px;
+  line-height: 46px;
+  border: 0;
+  background: 0 0;
+  box-shadow: none;
+  border-radius: 0;
+  border: 1px solid rgb(226, 223, 223);
+}
+.navbar-search-select {
+  width: 180px;
+  height: 48px;
+  line-height: 30px;
+  border: 1px solid rgb(226, 223, 223);
+}
+
+.navbar-search-select div {
+  background: white;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+.search-items-container button {
+  display: flex;
+  color: white;
+  background-color: #ff6161;
+  padding: 0 10px;
+  height: 48px;
+  line-height: 46px;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  border: 1px solid rgb(226, 223, 223);
+  transition: 0.5s ease;
+}
+.search-items-container button:hover {
+  color: #ff6161;
+  background-color: white;
+}
+.search-items-container button i {
+  font-size: 1.6em;
+}
+.card-user-profile-container i {
+  margin: 0 17px 0 17px;
+  font-size: 1.7em;
+  transition: 0.5s ease;
+}
+.card-user-profile-container i:hover {
+  color: #ff6161;
+}
+
+@media screen and (max-width: 900px) {
+}
